@@ -1,10 +1,14 @@
 {
-  "dependencies": {
-    "body-parse": "^0.1.0",
-    "body-parser": "^1.20.2",
-    "express": "^4.18.2",
-    "mongose": "^0.0.2-security",
-    "nodemon": "^3.0.3"
-  },
-  "type": "module"
-}
+    "name": "node-express-api",
+    "version": "1.0.0",
+    "description": "A basic Node.js API using Express.js",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "author": "Aishwarya",
+    "license": "MIT",
+    "dependencies": {
+      "express": "^4.17.1"
+    }
+  }
